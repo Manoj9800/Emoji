@@ -90,7 +90,7 @@ body {
     text-align: left;
     padding: 6rem 2rem;
     background: linear-gradient(to bottom, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-        url('Assets/hero background.jpg') no-repeat center center;
+        url('hero background.jpg') no-repeat center center;
     background-size: cover;
     color: white;
     position: relative;
@@ -110,7 +110,7 @@ body {
     right: 0;
     width: 40%;
     height: 100%;
-    background: url('Assets/hero animation.png') no-repeat center center;
+    background: url('hero animation.png') no-repeat center center;
     background-size: contain;
     opacity: 1;
     pointer-events: none;
@@ -172,7 +172,7 @@ p {
 #tokenomics,
 #roadmap {
     background: linear-gradient(to bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-        url('Assets/card background.jpg') no-repeat center center;
+        url('card background.jpg') no-repeat center center;
     background-size: cover;
     background-attachment: fixed;
     padding: 3rem 2rem;
@@ -184,7 +184,7 @@ p {
     text-align: center;
     padding: 2rem;
     background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-        url('Assets/social background.jpg') no-repeat center center;
+        url('social background.jpg') no-repeat center center;
     background-size: cover;
     color: white;
     margin: 0;
