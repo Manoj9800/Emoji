@@ -1,0 +1,165 @@
+<!doctype html>
+<html lang="en"> 
+ <head> 
+  <meta charset="UTF-8"> 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <title>EMOJI</title> 
+  <link rel="stylesheet" href="styles.css"> 
+  <style>
+    h1 {
+      font-size: 3rem;
+      background: linear-gradient(90deg, #ff9a9e, #fad0c4, #fbc2eb);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      text-shadow: 0 0 10px rgba(255, 255, 255, 0.8), 0 0 20px rgba(255, 105, 180, 0.5);
+      animation: glow 1.5s infinite alternate;
+    }
+
+    @keyframes glow {
+      from {
+        text-shadow: 0 0 10px rgba(255, 255, 255, 0.8), 0 0 20px rgba(255, 105, 180, 0.5);
+      }
+      to {
+        text-shadow: 0 0 20px rgba(255, 255, 255, 1), 0 0 30px rgba(255, 105, 180, 0.7);
+      }
+    }
+
+    .logo-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100px;
+      height: 100px;
+      background-color: yellow;
+      border-radius: 50%;
+      overflow: hidden;
+    }
+
+    .logo-image {
+      width: 90%;
+      height: 90%;
+      object-fit: cover;
+    }
+  </style> 
+ </head> 
+ <body> 
+  <!-- Header --> 
+  <header class="header"> 
+   <div class="logo"> 
+    <div class="logo-container"> 
+     <img src="Assets/logo.png" alt="Logo" class="logo-image"> 
+    </div> 
+   </div> 
+   <nav> 
+    <a href="#tokenomics" class="nav-link">Tokenomics</a> 
+    <a href="#roadmap" class="nav-link">Roadmap</a> 
+    <!--<a href="#buy" class="btn"> Buy Now</a> -->
+   </nav> 
+  </header> 
+
+  <!-- Hero Section --> 
+  <section class="hero"> 
+   <h1>EMOJI</h1> 
+   <p>Unleash the power of fun and finance with EMOJI Memecoin! 😎✨ Built on SUI, where every 😄 turns into 💰. EMOJI for the People by the People 🫂. Join the revolution! 🌟🤑 </p> 
+   <div class="countdown-container"> 
+    <p class="countdown">Launching in: <span id="timer"></span></p> 
+   </div> 
+  </section> 
+
+  <!-- Bubbles Container --> 
+  <div class="bubbles-container">
+    <div class="bubble"></div>
+    <div class="bubble"></div>
+    <div class="bubble"></div>
+    <div class="bubble"></div>
+    <div class="bubble"></div>
+  </div>
+
+  <!-- Spreading Crypto Joy Section --> 
+  <section id="crypto-joy"> 
+   <h2>Our Vision</h2> 
+   <div class="card-container"> 
+    <div class="card"> 
+     <h3> 🫂 Community first</h3> 
+     <p>Our first and foremost focus on our community.</p> 
+    </div> 
+    <div class="card"> 
+     <h3>🖼️ Our NFT</h3> 
+     <p>We partnership with top artist and creating their Exclusive NFTs for our community.</p> 
+    </div> 
+    <div class="card"> 
+     <h3>🎮 Our Game</h3> 
+     <p>Our telegram game is not just a game, its also generate rewards for you.</p> 
+    </div> 
+   </div> 
+  </section> 
+
+  <!-- Santa's Tokenomics Section --> 
+  <section id="tokenomics"> 
+   <h2>Emojinomics</h2> 
+   <p style="text-align: center; font-weight: bold;">Total Supply: 10,000,000,000</p> 
+   <div class="card-container"> 
+    <div class="card"> 
+     <h3> 🪙 Distribution</h3> 
+     <p>70% For community.</p> 
+     <p>20% For CEX/Airdrop.</p> 
+     <p>10% For Team/Marketing.</p> 
+    </div> 
+    <div class="card"> 
+     <h3> 🔒 Emoji's Vault</h3> 
+     <p>Team Token lock for 6 Months.</p> 
+     <p>Accessible for future upgrades.</p> 
+     <p>Supports long-term sustainability.</p> 
+    </div> 
+    <div class="card"> 
+     <h3> ℹ️ Other Information</h3> 
+     <p>Liquidity Burned.</p> 
+     <p>Buy/Sell Tax - 0%.</p> 
+     <p>Mintable/Owner Renounced - No </p> 
+    </div> 
+   </div> 
+  </section> 
+
+  <!-- Roadmap Section --> 
+  <section id="roadmap"> 
+   <h2>Our Roadmap</h2> 
+   <div class="card-container"> 
+    <div class="card"> 
+     <h3> 🫂 Phase 1</h3> 
+     <p>Plan and Make Strong team ✅</p> 
+     <p>Launch Social media and Community building ✅</p> 
+     <p>Create Website ✅</p> 
+    </div> 
+    <div class="card"> 
+     <h3> 🕺 Phase 2</h3> 
+     <p>Token Launch </p> 
+     <p>List on CoinGecko and CoinMarketCap</p> 
+     <p>Start Marketing </p> 
+     <p>Integrated AI Agent</p> 
+    </div> 
+    <div class="card"> 
+     <h3> 🏃 Phase 3</h3> 
+     <p>Launch Executive EMOJI Game</p> 
+     <p>Launch our Exclusive NFT for Holders </p> 
+     <p>Making partnership/List on CEX</p> 
+    </div> 
+   </div> 
+  </section> 
+
+  <!-- Social Media Section --> 
+  <section id="social-media"> 
+   <h2>Connect With Us</h2> 
+   <div class="social-container"> 
+    <a href="https://x.com/emojionsui" class="social-icon twitter"> 🐦 Twitter</a> 
+    <a href="https://t.me/emojionsuichat" class="social-icon telegram"> 📲 Telegram</a> 
+    <a href="#" class="social-icon chart"> 📈 Chart</a> 
+   </div> 
+  </section> 
+
+  <!-- Footer --> 
+  <footer class="footer"> 
+   <p>© 2025 EMOJI. Spreading crypto Fun 😊! </p> 
+  </footer> 
+  <script src="script.js"></script> 
+ </body>
+</html>
